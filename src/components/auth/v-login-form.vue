@@ -8,7 +8,7 @@
             <div class="input_block">
                 <input type="text" placeholder="Գաղտնաբառ*" v-model="form.password">
             </div>
-            <span>{{this.msg}}</span>
+            <p>{{this.msg}}</p>
             <button @click="(e)=>{e.preventDefault(); sendLogin(form)}">Մուտք գործել</button>
         </form>
 </template>
